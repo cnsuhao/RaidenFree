@@ -3,6 +3,8 @@
 
 本游戏是一款基于Cocos2dx开发的纵版飞行射击单机手游。玩家可以控制一架飞机与敌机进行对战，飞机可以发射子弹、导弹甚至激光，除此之外，玩家还能对自己的飞机进行强化改造，提升基础属性。当玩家完成指定的任务后，还能获取各种类型的道具奖励。游戏操作简单，上手容易，画面逼真炫酷，并有多种道具可供使用。
 
+在本项目的“附件”中可下载Windows版的游戏试玩。
+
 ----------
 
 本游戏支持三种游戏模式：闯关模式、无尽模式、急速模式。
@@ -53,11 +55,10 @@
 
 ##Android
 
-双击make_game.bat即进行编译，当编译完成后，将出现”编译成功”的字样，如下图所示。
-![Android编译][7]
+双击make_game.bat即进行编译，当编译完成后，将出现”编译成功”的字样，最终的发布包将出现在bin\release\android目录中
 
-最终的发布包将出现在bin\release\android目录中
-![APK包路径][8]
+#注意：本开源版本去掉了设计文档、弱联网服务代码、计费SDK和渠道SDK接入代码，并强力压缩了所有图片！！
+### 如需完整版本，或需其他支持，可联系thorqq@163.com
 
 
   [1]: http://upload-images.jianshu.io/upload_images/2397007-3e8a4a5fad6916e5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
@@ -66,5 +67,3 @@
   [4]: http://upload-images.jianshu.io/upload_images/2397007-fa6b1cd547e113cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [5]: http://upload-images.jianshu.io/upload_images/2397007-262cc9a87dba60b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
   [6]: http://upload-images.jianshu.io/upload_images/2397007-d8571f0f94c84613.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
-  [7]: http://upload-images.jianshu.io/upload_images/2397007-143652709194d869.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
-  [8]: http://upload-images.jianshu.io/upload_images/2397007-5756732bad752cee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
